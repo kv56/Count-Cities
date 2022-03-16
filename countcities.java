@@ -8,7 +8,6 @@ public class countcities {
     public static void main(String[] args) {
        String file = "cities.csv";
        String line;
-       List[][] Ac=new List[130][1];
        int i=0;
        List<String[]>lines = new ArrayList<String[]>();
        try (BufferedReader br =
